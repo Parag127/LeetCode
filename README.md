@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/Parag127/LeetCode/tree/master/0035-search-insert-position) |
 | [0088-merge-sorted-array](https://github.com/Parag127/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0766-toeplitz-matrix](https://github.com/Parag127/LeetCode/tree/master/0766-toeplitz-matrix) |
 | [3151-special-array-i](https://github.com/Parag127/LeetCode/tree/master/3151-special-array-i) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/Parag127/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Graph Theory
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0766-toeplitz-matrix](https://github.com/Parag127/LeetCode/tree/master/0766-toeplitz-matrix) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/Parag127/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Binary Search
 |  |
