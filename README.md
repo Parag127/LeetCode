@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Parag127/LeetCode/tree/master/0189-rotate-array) |
 | [0766-toeplitz-matrix](https://github.com/Parag127/LeetCode/tree/master/0766-toeplitz-matrix) |
 | [0867-transpose-matrix](https://github.com/Parag127/LeetCode/tree/master/0867-transpose-matrix) |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/Parag127/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Parag127/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/Parag127/LeetCode/tree/master/1572-matrix-diagonal-sum) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Parag127/LeetCode/tree/master/1582-special-positions-in-a-binary-matrix) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/Parag127/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [3839-number-of-prefix-connected-groups](https://github.com/Parag127/LeetCode/tree/master/3839-number-of-prefix-connected-groups) |
 ## String
 |  |
@@ -101,4 +103,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3839-number-of-prefix-connected-groups](https://github.com/Parag127/LeetCode/tree/master/3839-number-of-prefix-connected-groups) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/Parag127/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 <!---LeetCode Topics End-->
