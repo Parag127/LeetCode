@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Parag127/LeetCode/tree/master/0035-search-insert-position) |
+| [0059-spiral-matrix-ii](https://github.com/Parag127/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0088-merge-sorted-array](https://github.com/Parag127/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0766-toeplitz-matrix](https://github.com/Parag127/LeetCode/tree/master/0766-toeplitz-matrix) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Parag127/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0059-spiral-matrix-ii](https://github.com/Parag127/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0766-toeplitz-matrix](https://github.com/Parag127/LeetCode/tree/master/0766-toeplitz-matrix) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Parag127/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [3033-modify-the-matrix](https://github.com/Parag127/LeetCode/tree/master/3033-modify-the-matrix) |
@@ -60,4 +62,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/Parag127/LeetCode/tree/master/0509-fibonacci-number) |
+## Simulation
+|  |
+| ------- |
+| [0059-spiral-matrix-ii](https://github.com/Parag127/LeetCode/tree/master/0059-spiral-matrix-ii) |
 <!---LeetCode Topics End-->
