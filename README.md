@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Parag127/LeetCode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [3033-modify-the-matrix](https://github.com/Parag127/LeetCode/tree/master/3033-modify-the-matrix) |
 | [3151-special-array-i](https://github.com/Parag127/LeetCode/tree/master/3151-special-array-i) |
+| [3838-weighted-word-mapping](https://github.com/Parag127/LeetCode/tree/master/3838-weighted-word-mapping) |
 | [3839-number-of-prefix-connected-groups](https://github.com/Parag127/LeetCode/tree/master/3839-number-of-prefix-connected-groups) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/Parag127/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Graph Theory
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Parag127/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Parag127/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0867-transpose-matrix](https://github.com/Parag127/LeetCode/tree/master/0867-transpose-matrix) |
+| [3838-weighted-word-mapping](https://github.com/Parag127/LeetCode/tree/master/3838-weighted-word-mapping) |
 ## Hash Table
 |  |
 | ------- |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [3838-weighted-word-mapping](https://github.com/Parag127/LeetCode/tree/master/3838-weighted-word-mapping) |
 | [3839-number-of-prefix-connected-groups](https://github.com/Parag127/LeetCode/tree/master/3839-number-of-prefix-connected-groups) |
 ## Counting
 |  |
