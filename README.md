@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-transpose-matrix](https://github.com/Parag127/LeetCode/tree/master/0867-transpose-matrix) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Parag127/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/Parag127/LeetCode/tree/master/1572-matrix-diagonal-sum) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/Parag127/LeetCode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [3033-modify-the-matrix](https://github.com/Parag127/LeetCode/tree/master/3033-modify-the-matrix) |
 | [3151-special-array-i](https://github.com/Parag127/LeetCode/tree/master/3151-special-array-i) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/Parag127/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-transpose-matrix](https://github.com/Parag127/LeetCode/tree/master/0867-transpose-matrix) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Parag127/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/Parag127/LeetCode/tree/master/1572-matrix-diagonal-sum) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/Parag127/LeetCode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [3033-modify-the-matrix](https://github.com/Parag127/LeetCode/tree/master/3033-modify-the-matrix) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/Parag127/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Binary Search
