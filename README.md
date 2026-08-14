@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Parag127/LeetCode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Parag127/LeetCode/tree/master/0231-power-of-two) |
 | [0509-fibonacci-number](https://github.com/Parag127/LeetCode/tree/master/0509-fibonacci-number) |
+| [1716-calculate-money-in-leetcode-bank](https://github.com/Parag127/LeetCode/tree/master/1716-calculate-money-in-leetcode-bank) |
 ## Bit Manipulation
 |  |
 | ------- |
