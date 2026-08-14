@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Parag127/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/Parag127/LeetCode/tree/master/1572-matrix-diagonal-sum) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Parag127/LeetCode/tree/master/1582-special-positions-in-a-binary-matrix) |
+| [1929-concatenation-of-array](https://github.com/Parag127/LeetCode/tree/master/1929-concatenation-of-array) |
 | [3033-modify-the-matrix](https://github.com/Parag127/LeetCode/tree/master/3033-modify-the-matrix) |
 | [3151-special-array-i](https://github.com/Parag127/LeetCode/tree/master/3151-special-array-i) |
 | [3838-weighted-word-mapping](https://github.com/Parag127/LeetCode/tree/master/3838-weighted-word-mapping) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Parag127/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Parag127/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0867-transpose-matrix](https://github.com/Parag127/LeetCode/tree/master/0867-transpose-matrix) |
+| [1929-concatenation-of-array](https://github.com/Parag127/LeetCode/tree/master/1929-concatenation-of-array) |
 | [3838-weighted-word-mapping](https://github.com/Parag127/LeetCode/tree/master/3838-weighted-word-mapping) |
 ## Hash Table
 |  |
