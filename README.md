@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Parag127/LeetCode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Parag127/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Parag127/LeetCode/tree/master/0059-spiral-matrix-ii) |
+| [0075-sort-colors](https://github.com/Parag127/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Parag127/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Parag127/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Parag127/LeetCode/tree/master/0189-rotate-array) |
@@ -56,11 +57,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Parag127/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0075-sort-colors](https://github.com/Parag127/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Parag127/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Parag127/LeetCode/tree/master/0189-rotate-array) |
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/Parag127/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Parag127/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Parag127/LeetCode/tree/master/0169-majority-element) |
 ## Math
@@ -146,4 +149,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Parag127/LeetCode/tree/master/0169-majority-element) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Parag127/LeetCode/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Parag127/LeetCode/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
