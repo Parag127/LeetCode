@@ -15,7 +15,7 @@ class Solution {
         ListNode dummyNode = new ListNode (-1);
         ListNode temp = dummyNode;
         int sum = 0;
-
+        head = head.next;
         while (head != null && head.next != null) {
             sum += head.val;
 
@@ -25,7 +25,7 @@ class Solution {
                 temp.next = new ListNode(sum);
                 temp = temp.next;
             }
-            
+
             head = head.next;
         }
         return dummyNode.next;
