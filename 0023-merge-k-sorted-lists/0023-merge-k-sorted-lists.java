@@ -12,12 +12,18 @@
 class Solution {
 
     public ListNode mergeKLists(ListNode[] lists) {
-        if (lists.length == 0) return null;
-        ListNode head = lists[0];
-        for (int i = 1; i < lists.length; i++) {
-            head = mergeLL(head, lists[i]);
+        if (lists.length == 0 || lists == null) return null;
+        return divide(lists, 0, lists.length - 1);
+    }
+
+    static ListNode divide(ListNode[] lists, int beg, int end){
+        if (beg >= end) {
+            return lists[beg];
         }
-        return head;
+            int mid = (beg + end) / 2;
+            ListNode left = divide(lists, beg, mid);
+            ListNode right = divide(lists, mid + 1, end);
+            return mergeLL(left, right);
     }
 
     static ListNode mergeLL(ListNode list1, ListNode list2) {
