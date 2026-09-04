@@ -8,14 +8,14 @@ class Solution {
             if (s.charAt(i) == '(' || s.charAt(i) == '{' || s.charAt(i) == '['){
                 st.push(s.charAt(i));
             } else {
-                if (st.size() == 0) return false;
+                if (st.isEmpty()) return false;
 
                 char ch = s.charAt(i);
                 if (st.peek() == '[' && ch == ']' || st.peek() == '{' && ch == '}' || st.peek() == '(' && ch == ')') st.pop();
                 else return false;
             }
         }
-        if (st.size() == 0) return true;
+        if (st.isEmpty()) return true;
         else return false;
     }
 }
