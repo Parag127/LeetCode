@@ -1,7 +1,7 @@
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
         
-        Stack<Integer> st = new Stack<>();
+        Deque<Integer> st = new ArrayDeque<>();
         int n = nums.length;
         int i = n * 2 - 1;
         int[] nge = new int [n];
