@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Parag127/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Parag127/LeetCode/tree/master/0189-rotate-array) |
 | [0485-max-consecutive-ones](https://github.com/Parag127/LeetCode/tree/master/0485-max-consecutive-ones) |
+| [0496-next-greater-element-i](https://github.com/Parag127/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0645-set-mismatch](https://github.com/Parag127/LeetCode/tree/master/0645-set-mismatch) |
 | [0766-toeplitz-matrix](https://github.com/Parag127/LeetCode/tree/master/0766-toeplitz-matrix) |
 | [0867-transpose-matrix](https://github.com/Parag127/LeetCode/tree/master/0867-transpose-matrix) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Parag127/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Parag127/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Parag127/LeetCode/tree/master/0169-majority-element) |
+| [0496-next-greater-element-i](https://github.com/Parag127/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0645-set-mismatch](https://github.com/Parag127/LeetCode/tree/master/0645-set-mismatch) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/Parag127/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [3839-number-of-prefix-connected-groups](https://github.com/Parag127/LeetCode/tree/master/3839-number-of-prefix-connected-groups) |
@@ -176,10 +178,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Parag127/LeetCode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Parag127/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0155-min-stack](https://github.com/Parag127/LeetCode/tree/master/0155-min-stack) |
+| [0496-next-greater-element-i](https://github.com/Parag127/LeetCode/tree/master/0496-next-greater-element-i) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Parag127/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0496-next-greater-element-i](https://github.com/Parag127/LeetCode/tree/master/0496-next-greater-element-i) |
 ## Divide and Conquer
 |  |
 | ------- |
