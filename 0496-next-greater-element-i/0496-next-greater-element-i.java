@@ -1,6 +1,5 @@
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        if (nums1.length == 0) return nums1;
         Stack<Integer> st = new Stack<>();
         HashMap<Integer, Integer> map = new HashMap<>();
 
