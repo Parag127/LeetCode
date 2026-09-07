@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1572-matrix-diagonal-sum](https://github.com/Parag127/LeetCode/tree/master/1572-matrix-diagonal-sum) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Parag127/LeetCode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1929-concatenation-of-array](https://github.com/Parag127/LeetCode/tree/master/1929-concatenation-of-array) |
+| [2104-sum-of-subarray-ranges](https://github.com/Parag127/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Parag127/LeetCode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [3033-modify-the-matrix](https://github.com/Parag127/LeetCode/tree/master/3033-modify-the-matrix) |
 | [3151-special-array-i](https://github.com/Parag127/LeetCode/tree/master/3151-special-array-i) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Parag127/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Parag127/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/Parag127/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/Parag127/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -191,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Parag127/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Parag127/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/Parag127/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/Parag127/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 ## Divide and Conquer
 |  |
 | ------- |
