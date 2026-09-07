@@ -29,7 +29,7 @@ class Solution {
 
     static void findNSE(int[] arr, int[] NSE) {
         int n = arr.length;
-        Stack<Integer> st = new Stack<>();
+        Deque<Integer> st = new ArrayDeque<>();
         int i = n - 1;
         while (i >= 0) {
             while (!st.isEmpty() && arr[st.peek()] >= arr[i]) {
@@ -49,7 +49,7 @@ class Solution {
 
     static void findPSE(int[] arr, int[] PSE) {
         int n = arr.length;
-        Stack<Integer> st = new Stack<>();
+        Deque<Integer> st = new ArrayDeque<>();
         int i = 0;
 
         while (i < n) {
@@ -70,7 +70,7 @@ class Solution {
 
     static void findNGE(int[] arr, int[] NGE) {
         int n = arr.length;
-        Stack<Integer> st = new Stack<>();
+        Deque<Integer> st = new ArrayDeque<>();
         int i = n - 1;
 
         while (i >= 0) {
@@ -91,7 +91,7 @@ class Solution {
 
     static void findPGE(int[] arr, int[] PGE) {
 	    int n = arr.length;
-	    Stack<Integer> st = new Stack<>();
+	    Deque<Integer> st = new ArrayDeque<>();
 	    int i = 0;
 	    
 	    while (i < n) {
