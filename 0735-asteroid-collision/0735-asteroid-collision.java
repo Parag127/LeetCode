@@ -2,7 +2,7 @@ class Solution {
     public int[] asteroidCollision(int[] asteroids) {
         
         int n = asteroids.length;
-        Stack<Integer> st= new Stack<>();
+        Deque<Integer> st= new ArrayDeque<>();
         int i = 0;
         while (i < n) {
 
