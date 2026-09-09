@@ -21,18 +21,8 @@ class Solution {
         ListNode temp = slow.next;
         slow.next = null;
 
-        ListNode curr = temp;
-        ListNode prev = null;
-
-        while (curr != null) {
-            ListNode last = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = last;
-        }
-
         ListNode first = head;
-        ListNode second = prev;
+        ListNode second = reverseList(temp);
 
         while (first != null && second != null) {
             ListNode fNext = first.next;
@@ -44,5 +34,18 @@ class Solution {
             first = fNext;
             second = sNext;
         }
+    }
+
+    public static ListNode reverseList(ListNode head) {
+        ListNode curr = head;
+        ListNode prev = null;
+
+        while (curr != null) {
+            ListNode last = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = last;
+        }
+        return prev;
     }
 }
