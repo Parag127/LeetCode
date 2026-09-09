@@ -20,7 +20,7 @@ class Solution {
 
     public static int largestRectangle(int[] arr) {
         int n = arr.length;
-        Stack<Integer> st = new Stack<>();
+        Deque<Integer> st = new ArrayDeque<>();
 
         int maxArea = 0;
 
