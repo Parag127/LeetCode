@@ -1,7 +1,7 @@
 class Solution {
     public int largestRectangleArea(int[] arr) {
         int n = arr.length;
-        Stack<Integer> st = new Stack<>();
+        Deque<Integer> st = new ArrayDeque<>();
 
         int maxArea = -1;
         for (int i = 0; i < n; i++) {
