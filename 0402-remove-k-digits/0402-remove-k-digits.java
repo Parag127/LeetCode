@@ -21,27 +21,23 @@ class Solution {
 
         if (st.isEmpty()) return "0";
 
-        String ans = "";
+        StringBuilder ans = new StringBuilder();
+
         while (!st.isEmpty()) {
-            ans += st.peek();
-            st.pop();
+            ans.append(st.removeLast());
         }
 
-        StringBuilder rev = new StringBuilder(ans).reverse();
+        i = 0;
 
-        int j = 0;
-
-        while (j < rev.length() && rev.charAt(j) == '0') {
-            j++;
+        while (i < ans.length() && ans.charAt(i) == '0') {
+            i++;
         }
 
-        rev = new StringBuilder(rev.substring(j));
-
-        if (rev.length() == 0) {
+        if (i == ans.length()) {
             return "0";
         }
 
-        return rev.toString();
+        return ans.substring(i);
         
     }
 }
