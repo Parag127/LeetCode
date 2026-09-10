@@ -1,6 +1,8 @@
 class Solution {
     public String removeKdigits(String num, int k) {
-        Stack<Character> st = new Stack<>();
+        if (k == num.length()) return "0";
+
+        Deque<Character> st = new ArrayDeque<>();
         int i = 0;
 
         while (i < num.length()) {
@@ -16,6 +18,8 @@ class Solution {
             st.pop();
             k--;
         }
+
+        if (st.isEmpty()) return "0";
 
         String ans = "";
         while (!st.isEmpty()) {
