@@ -1,59 +1,52 @@
 class Solution {
     public int sumSubarrayMins(int[] arr) {
         int n = arr.length;
-
         int[] NSE = new int[n];
         int[] PSE = new int[n];
 
         findNSE(arr, NSE);
         findPSE(arr, PSE);
 
-        long mod = (int)(1e9 + 7);
-        long ans = 0;
-        for (int i = 0; i < arr.length; i++) {
+        long minSum = 0;
+        long mod = (long)(1e9 + 7);
+        for (int i = 0; i < n; i++) {
             int left = i - PSE[i];
             int right = NSE[i] - i;
 
-            ans = (ans + ((long)arr[i] * left % mod) * right % mod) % mod ;
+            minSum = (minSum + (left * right * 1L * arr[i]) % mod) % mod;
         }
-
-        return (int)ans;
+        return (int)(minSum);
     }
 
     static void findNSE(int[] arr, int[] NSE) {
-        int i = arr.length - 1;
+        int n = arr.length;
+        int i = n - 1;
         Deque<Integer> st = new ArrayDeque<>();
-        while (i >= 0) {
 
+        while (i >= 0) {
             while (!st.isEmpty() && arr[st.peek()] >= arr[i]) {
                 st.pop();
             }
 
-            if (st.isEmpty()) {
-                NSE[i] = arr.length;
-            } else {
-                NSE[i] = st.peek();
-            }
+            NSE[i] = st.isEmpty() ? n : st.peek();
+
             st.push(i);
             i--;
         }
+
     }
 
     static void findPSE(int[] arr, int[] PSE) {
-        Deque<Integer> st = new ArrayDeque<>();
+        int n = arr.length;
         int i = 0;
+        Deque<Integer> st = new ArrayDeque<>();
 
-        while (i < arr.length) {
+        while (i < n) {
             while (!st.isEmpty() && arr[st.peek()] > arr[i]) {
                 st.pop();
             }
 
-            if (st.isEmpty()){
-                PSE[i] = -1;
-            } else {
-                PSE[i] = st.peek();
-            }
-
+            PSE[i] = st.isEmpty() ? -1 : st.peek();
             st.push(i);
             i++;
         }
