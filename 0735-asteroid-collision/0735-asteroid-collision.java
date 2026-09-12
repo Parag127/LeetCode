@@ -1,38 +1,37 @@
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
-        
         int n = asteroids.length;
-        Deque<Integer> st= new ArrayDeque<>();
         int i = 0;
+        Deque<Integer> st = new ArrayDeque<>();
+
         while (i < n) {
-
+            boolean destroyed = false;
             int aste = asteroids[i];
-            boolean destroy = false;
+            while (!st.isEmpty() && st.peek() > 0 && aste < 0) {
 
-            while (!st.isEmpty() && aste < 0 && st.peek() > 0) {
-                if (st.peek() < Math.abs(aste)) {
+                if (st.peek() == Math.abs(aste)) {
                     st.pop();
-                } else if (st.peek() == Math.abs(aste)){ 
-                    st.pop();
-                    destroy = true;
+                    destroyed = true;
+                    break;
+
+                } else if (st.peek() > Math.abs(aste)) {
+                    destroyed = true;
                     break;
                 } else {
-                    destroy = true;
-                    break;
+                    st.pop();
                 }
             }
-
-            if (!destroy) {
-                st.push(aste);
+            if (!destroyed) {
+                st.push(asteroids[i]);
             }
             i++;
         }
-        int[] destroyedAste = new int[st.size()];
-
-        for (int x = destroyedAste.length - 1; x >= 0; x--) {
-            destroyedAste[x] = st.peek();
-            st.pop();
+        int x = st.size();
+        int[] ans = new int[x];
+        for (int k = 0; k < x; k++) {
+            ans[k] = st.removeLast();
         }
-        return destroyedAste;
+
+        return ans;
     }
 }
