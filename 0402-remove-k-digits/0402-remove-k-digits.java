@@ -19,10 +19,10 @@ class Solution {
 
         if (st.isEmpty()) return "0";
 
-        String ans = new String();
+        StringBuilder ans = new StringBuilder();
         i = st.size();
         for (int x = 0; x < i; x++) {
-            ans += st.removeLast();
+            ans.append(st.removeLast());
         }
 
         i = 0;
