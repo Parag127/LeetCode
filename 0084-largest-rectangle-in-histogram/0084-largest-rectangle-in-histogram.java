@@ -16,7 +16,7 @@ class Solution {
 
     static void findNSE(int[] arr, int[] NSE) {
         int n = arr.length;
-        Stack<Integer> st = new Stack<>();
+        Deque<Integer> st = new ArrayDeque<>();
 
         int i = arr.length - 1;
         while (i >= 0) {
@@ -32,7 +32,7 @@ class Solution {
 
     static void findPSE(int[] arr, int[] PSE) {
         int n = arr.length;
-        Stack<Integer> st = new Stack<>();
+        Deque<Integer> st = new ArrayDeque<>();
         int i = 0;
 
         while (i < n) {
