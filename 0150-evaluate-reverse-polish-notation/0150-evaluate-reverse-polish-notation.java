@@ -8,10 +8,8 @@ class Solution {
 
             if (token.equals("-") || token.equals("+") || token.equals("*")
                 || token.equals("/")) {
-                int t2 = st.peek();
-                st.pop();
-                int t1 = st.peek();
-                st.pop();
+                int t2 = st.pop();
+                int t1 = st.pop();
 
                 switch (token) {
                     case "+":
@@ -34,6 +32,6 @@ class Solution {
                 st.push(Integer.parseInt(token));
             }
         }
-        return st.peek();
+        return st.pop();
     }
 }
