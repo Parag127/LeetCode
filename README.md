@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Parag127/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Parag127/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Parag127/LeetCode/tree/master/0189-rotate-array) |
+| [0239-sliding-window-maximum](https://github.com/Parag127/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0485-max-consecutive-ones](https://github.com/Parag127/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Parag127/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Parag127/LeetCode/tree/master/0503-next-greater-element-ii) |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Parag127/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0239-sliding-window-maximum](https://github.com/Parag127/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0912-sort-an-array](https://github.com/Parag127/LeetCode/tree/master/0912-sort-an-array) |
 ## Merge Sort
 |  |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Parag127/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
+| [0239-sliding-window-maximum](https://github.com/Parag127/LeetCode/tree/master/0239-sliding-window-maximum) |
 ## Greedy
 |  |
 | ------- |
@@ -326,4 +329,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/Parag127/LeetCode/tree/master/0901-online-stock-span) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Parag127/LeetCode/tree/master/0239-sliding-window-maximum) |
+## Sliding Window
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Parag127/LeetCode/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Parag127/LeetCode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
