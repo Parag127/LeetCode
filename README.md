@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Parag127/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Parag127/LeetCode/tree/master/0189-rotate-array) |
 | [0239-sliding-window-maximum](https://github.com/Parag127/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0268-missing-number](https://github.com/Parag127/LeetCode/tree/master/0268-missing-number) |
 | [0485-max-consecutive-ones](https://github.com/Parag127/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Parag127/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Parag127/LeetCode/tree/master/0503-next-greater-element-ii) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Parag127/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Parag127/LeetCode/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Parag127/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0268-missing-number](https://github.com/Parag127/LeetCode/tree/master/0268-missing-number) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Parag127/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Two Pointers
 |  |
@@ -102,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Parag127/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/Parag127/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Parag127/LeetCode/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/Parag127/LeetCode/tree/master/0268-missing-number) |
 | [0645-set-mismatch](https://github.com/Parag127/LeetCode/tree/master/0645-set-mismatch) |
 | [0912-sort-an-array](https://github.com/Parag127/LeetCode/tree/master/0912-sort-an-array) |
 ## Math
@@ -114,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Parag127/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Parag127/LeetCode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Parag127/LeetCode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Parag127/LeetCode/tree/master/0268-missing-number) |
 | [0509-fibonacci-number](https://github.com/Parag127/LeetCode/tree/master/0509-fibonacci-number) |
 | [1716-calculate-money-in-leetcode-bank](https://github.com/Parag127/LeetCode/tree/master/1716-calculate-money-in-leetcode-bank) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Parag127/LeetCode/tree/master/2221-find-triangular-sum-of-an-array) |
@@ -122,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0191-number-of-1-bits](https://github.com/Parag127/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/Parag127/LeetCode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Parag127/LeetCode/tree/master/0268-missing-number) |
 | [0645-set-mismatch](https://github.com/Parag127/LeetCode/tree/master/0645-set-mismatch) |
 ## Recursion
 |  |
@@ -170,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Parag127/LeetCode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Parag127/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Parag127/LeetCode/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/Parag127/LeetCode/tree/master/0268-missing-number) |
 | [0496-next-greater-element-i](https://github.com/Parag127/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0645-set-mismatch](https://github.com/Parag127/LeetCode/tree/master/0645-set-mismatch) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/Parag127/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
