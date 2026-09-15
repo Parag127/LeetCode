@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Parag127/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Parag127/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0645-set-mismatch](https://github.com/Parag127/LeetCode/tree/master/0645-set-mismatch) |
+| [0713-subarray-product-less-than-k](https://github.com/Parag127/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 | [0735-asteroid-collision](https://github.com/Parag127/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Parag127/LeetCode/tree/master/0739-daily-temperatures) |
 | [0766-toeplitz-matrix](https://github.com/Parag127/LeetCode/tree/master/0766-toeplitz-matrix) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Parag127/LeetCode/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Parag127/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/Parag127/LeetCode/tree/master/0268-missing-number) |
+| [0713-subarray-product-less-than-k](https://github.com/Parag127/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Parag127/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Two Pointers
 |  |
@@ -360,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Parag127/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0713-subarray-product-less-than-k](https://github.com/Parag127/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -368,4 +371,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Parag127/LeetCode/tree/master/0146-lru-cache) |
+## Prefix Sum
+|  |
+| ------- |
+| [0713-subarray-product-less-than-k](https://github.com/Parag127/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 <!---LeetCode Topics End-->
