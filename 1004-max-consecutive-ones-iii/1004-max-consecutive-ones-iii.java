@@ -3,7 +3,8 @@ class Solution {
         int l = 0;
         int maxLen = 0;
         int zeroes = 0;
-        for (int r = 0; r < nums.length; r++) {
+        int r = 0;
+        while (r < nums.length) {
             if (nums[r] == 0) zeroes++;
 
             while (zeroes > k && l <= r) {
@@ -12,6 +13,7 @@ class Solution {
             } 
 
             maxLen = Math.max(maxLen, r - l + 1);
+            r++;
         }
 
         return maxLen;
