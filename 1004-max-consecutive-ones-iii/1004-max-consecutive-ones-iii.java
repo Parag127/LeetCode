@@ -12,7 +12,9 @@ class Solution {
                 l++;
             } 
 
-            maxLen = Math.max(maxLen, r - l + 1);
+            if (zeroes <= k) {
+                maxLen = Math.max(maxLen, r - l + 1);
+            }
             r++;
         }
 
