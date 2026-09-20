@@ -18,17 +18,18 @@ class Solution {
         }
 
         ListNode prev = null;
-        ListNode current = head;
+        ListNode curr = head;
         int i = 0;
         while (i < k) {
-            ListNode next = current.next;
-            current.next = prev;
-            prev = current;
-            current = next;
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
             i++;
         }
 
-        head.next = reverseKGroup(current, k);
+        head.next = reverseKGroup(curr , k);
         return prev;
+
     }
 }
