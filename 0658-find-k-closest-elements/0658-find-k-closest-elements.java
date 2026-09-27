@@ -21,7 +21,7 @@ class Solution {
         }
 
         for (int i = 0; i < k; i++) {
-            list.add(0, pq.poll().val);
+            list.add(pq.poll().val);
         }
 
         Collections.sort(list);
