@@ -19,7 +19,7 @@ class Solution {
         preOrder(root);
 
         int size = pq.size();
-        for (int i = i = 0; i < size; i++) {
+        for (int i = 0; i < size; i++) {
             if (pq.size() > k) pq.poll();
             else break;
         }
