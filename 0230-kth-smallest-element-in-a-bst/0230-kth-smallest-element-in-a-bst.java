@@ -16,23 +16,17 @@
 class Solution {
     PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
     public int kthSmallest(TreeNode root, int k) {           
-        preOrder(root);
-
-        int size = pq.size();
-        for (int i = 0; i < size; i++) {
-            if (pq.size() > k) pq.poll();
-            else break;
-        }
-
+        preOrder(root, k);
         return pq.peek();
     }
 
-    void preOrder(TreeNode root) {
+    void preOrder(TreeNode root, int k) {
 
         if (root == null) return;
         
         pq.add(root.val);
-        preOrder(root.left);
-        preOrder(root.right);
+        if (pq.size() > k) pq.poll();
+        preOrder(root.left, k);
+        preOrder(root.right, k);
     } 
 }
