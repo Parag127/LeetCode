@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Parag127/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Parag127/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0645-set-mismatch](https://github.com/Parag127/LeetCode/tree/master/0645-set-mismatch) |
+| [0658-find-k-closest-elements](https://github.com/Parag127/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/Parag127/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 | [0735-asteroid-collision](https://github.com/Parag127/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Parag127/LeetCode/tree/master/0739-daily-temperatures) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Parag127/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Parag127/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/Parag127/LeetCode/tree/master/0268-missing-number) |
+| [0658-find-k-closest-elements](https://github.com/Parag127/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/Parag127/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/Parag127/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Parag127/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Parag127/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0455-assign-cookies](https://github.com/Parag127/LeetCode/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/Parag127/LeetCode/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/Parag127/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0876-middle-of-the-linked-list](https://github.com/Parag127/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Parag127/LeetCode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Sorting
@@ -132,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Parag127/LeetCode/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/Parag127/LeetCode/tree/master/0455-assign-cookies) |
 | [0645-set-mismatch](https://github.com/Parag127/LeetCode/tree/master/0645-set-mismatch) |
+| [0658-find-k-closest-elements](https://github.com/Parag127/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0912-sort-an-array](https://github.com/Parag127/LeetCode/tree/master/0912-sort-an-array) |
 ## Math
 |  |
@@ -318,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Parag127/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Parag127/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Parag127/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0658-find-k-closest-elements](https://github.com/Parag127/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0912-sort-an-array](https://github.com/Parag127/LeetCode/tree/master/0912-sort-an-array) |
 ## Merge Sort
 |  |
@@ -413,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Parag127/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Parag127/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Parag127/LeetCode/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/Parag127/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/Parag127/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/Parag127/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Parag127/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
