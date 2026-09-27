@@ -11,11 +11,11 @@ class Solution {
         }
 
         PriorityQueue<Pair> pq = new PriorityQueue<>(
-            (a, b) -> Integer.compare(a.key, b.key)
+            (a, b) -> Integer.compare(a.val, b.val)
         );
 
         for (Map.Entry <Integer, Integer> entry : map.entrySet()) {
-            pq.offer(new Pair (entry.getKey(), entry.getValue()));
+            pq.offer(new Pair (entry.getValue(), entry.getKey()));
 
             if (pq.size() > k) {
                 pq.poll();
@@ -25,7 +25,7 @@ class Solution {
         int[] ans = new int[k];
         int i = 0;
         while (!pq.isEmpty()) {
-            ans[i] = pq.poll().val;
+            ans[i] = pq.poll().key;
             i++;
         }
            
@@ -36,9 +36,9 @@ class Solution {
         int key;
         int val;
 
-        Pair (int val, int key) {
-            this.val = val;
-            this.key = key;
+        Pair (int val1, int key1) {
+            this.key = key1;
+            this.val = val1;
         }
     }
 }
