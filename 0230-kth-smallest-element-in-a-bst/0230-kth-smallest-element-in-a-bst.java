@@ -14,19 +14,19 @@
  * }
  */
 class Solution {
-    PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
     public int kthSmallest(TreeNode root, int k) {           
-        preOrder(root, k);
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+        preOrder(root, k, pq);
         return pq.peek();
     }
 
-    void preOrder(TreeNode root, int k) {
+    void preOrder(TreeNode root, int k, PriorityQueue<Integer> pq) {
 
         if (root == null) return;
         
         pq.add(root.val);
         if (pq.size() > k) pq.poll();
-        preOrder(root.left, k);
-        preOrder(root.right, k);
+        preOrder(root.left, k, pq);
+        preOrder(root.right, k, pq);
     } 
 }
