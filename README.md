@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Parag127/LeetCode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1572-matrix-diagonal-sum](https://github.com/Parag127/LeetCode/tree/master/1572-matrix-diagonal-sum) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Parag127/LeetCode/tree/master/1582-special-positions-in-a-binary-matrix) |
+| [1636-sort-array-by-increasing-frequency](https://github.com/Parag127/LeetCode/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1929-concatenation-of-array](https://github.com/Parag127/LeetCode/tree/master/1929-concatenation-of-array) |
 | [2104-sum-of-subarray-ranges](https://github.com/Parag127/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Parag127/LeetCode/tree/master/2221-find-triangular-sum-of-an-array) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/Parag127/LeetCode/tree/master/0645-set-mismatch) |
 | [0658-find-k-closest-elements](https://github.com/Parag127/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0912-sort-an-array](https://github.com/Parag127/LeetCode/tree/master/0912-sort-an-array) |
+| [1636-sort-array-by-increasing-frequency](https://github.com/Parag127/LeetCode/tree/master/1636-sort-array-by-increasing-frequency) |
 ## Math
 |  |
 | ------- |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Parag127/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Parag127/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Parag127/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1636-sort-array-by-increasing-frequency](https://github.com/Parag127/LeetCode/tree/master/1636-sort-array-by-increasing-frequency) |
 | [3839-number-of-prefix-connected-groups](https://github.com/Parag127/LeetCode/tree/master/3839-number-of-prefix-connected-groups) |
 ## String
 |  |
