@@ -19,8 +19,7 @@ class Solution {
                     map.remove(fruits[l]);
                 }
                 l++;
-            }
-            if (map.size() <= 2) {
+            } else { 
                 maxLen = Math.max(maxLen, r - l + 1);
             }
 
