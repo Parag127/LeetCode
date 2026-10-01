@@ -28,11 +28,11 @@ class Solution {
             }
         }
 
-        List<String> list = new ArrayList<>();
-        for (int i = 0; i < k; i++) {
-            list.add(0, pq.poll().word);
+        String[] arr = new String[k];
+        for (int i = k - 1; i >= 0; i--) {
+            arr[i] = pq.poll().word;
         }
-        return list;    
+        return Arrays.asList(arr);    
     }
 
     class Pair {
