@@ -24,7 +24,6 @@ class Solution {
         }
 
         StringBuilder str = new StringBuilder();
-        int size = pq.size();
         while (!pq.isEmpty()) {
             Pair <Integer, Character> p = pq.poll();
             int k = 0;
