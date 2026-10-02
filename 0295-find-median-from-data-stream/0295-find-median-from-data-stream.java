@@ -11,7 +11,7 @@ class MedianFinder {
     public void addNum(int num) {
         max.offer(num);
 
-        while (!min.isEmpty() && max.peek() > min.peek()) {
+        if (!min.isEmpty() && max.peek() > min.peek()) {
             int a = max.poll();
             int b = min.poll();
 
