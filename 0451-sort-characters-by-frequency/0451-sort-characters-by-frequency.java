@@ -23,18 +23,18 @@ class Solution {
             pq.offer(new Pair<>(entry.getValue(), entry.getKey()));
         }
 
-        String str = new String();
+        StringBuilder str = new StringBuilder();
         int size = pq.size();
-        for (int i = 0; i < size; i++) {
+        while (!pq.isEmpty()) {
+            Pair <Integer, Character> p = pq.poll();
             int k = 0;
-            while (pq.peek().getKey() - k != 0) {
-                str += pq.peek().getValue();
+            while (p.getKey() - k != 0) {
+                str.append(p.getValue());
                 k++;
             }
-            pq.poll();
         }
 
-        return str;
+        return str.toString();
     }
 
     class Pair <K, V> {
