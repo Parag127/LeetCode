@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1572-matrix-diagonal-sum](https://github.com/Parag127/LeetCode/tree/master/1572-matrix-diagonal-sum) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Parag127/LeetCode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Parag127/LeetCode/tree/master/1636-sort-array-by-increasing-frequency) |
+| [1920-build-array-from-permutation](https://github.com/Parag127/LeetCode/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/Parag127/LeetCode/tree/master/1929-concatenation-of-array) |
 | [2104-sum-of-subarray-ranges](https://github.com/Parag127/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Parag127/LeetCode/tree/master/2221-find-triangular-sum-of-an-array) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0059-spiral-matrix-ii](https://github.com/Parag127/LeetCode/tree/master/0059-spiral-matrix-ii) |
 | [0735-asteroid-collision](https://github.com/Parag127/LeetCode/tree/master/0735-asteroid-collision) |
 | [0867-transpose-matrix](https://github.com/Parag127/LeetCode/tree/master/0867-transpose-matrix) |
+| [1920-build-array-from-permutation](https://github.com/Parag127/LeetCode/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/Parag127/LeetCode/tree/master/1929-concatenation-of-array) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/Parag127/LeetCode/tree/master/2181-merge-nodes-in-between-zeros) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Parag127/LeetCode/tree/master/2221-find-triangular-sum-of-an-array) |
