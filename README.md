@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Parag127/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Parag127/LeetCode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Parag127/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0295-find-median-from-data-stream](https://github.com/Parag127/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/Parag127/LeetCode/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/Parag127/LeetCode/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/Parag127/LeetCode/tree/master/0658-find-k-closest-elements) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Parag127/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Parag127/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Parag127/LeetCode/tree/master/0268-missing-number) |
+| [0295-find-median-from-data-stream](https://github.com/Parag127/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Parag127/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/Parag127/LeetCode/tree/master/0455-assign-cookies) |
 | [0645-set-mismatch](https://github.com/Parag127/LeetCode/tree/master/0645-set-mismatch) |
@@ -339,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Parag127/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Parag127/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Parag127/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0295-find-median-from-data-stream](https://github.com/Parag127/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Parag127/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0658-find-k-closest-elements](https://github.com/Parag127/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/Parag127/LeetCode/tree/master/0692-top-k-frequent-words) |
@@ -411,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Parag127/LeetCode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Parag127/LeetCode/tree/master/0155-min-stack) |
+| [0295-find-median-from-data-stream](https://github.com/Parag127/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Parag127/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/Parag127/LeetCode/tree/master/0901-online-stock-span) |
 ## Range Minimum/Maximum Query
@@ -427,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/Parag127/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Parag127/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/Parag127/LeetCode/tree/master/0901-online-stock-span) |
 ## Queue
