@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Parag127/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Parag127/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/Parag127/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
+| [1046-last-stone-weight](https://github.com/Parag127/LeetCode/tree/master/1046-last-stone-weight) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Parag127/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Parag127/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Parag127/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/Parag127/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0912-sort-an-array](https://github.com/Parag127/LeetCode/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/Parag127/LeetCode/tree/master/0973-k-closest-points-to-origin) |
+| [1046-last-stone-weight](https://github.com/Parag127/LeetCode/tree/master/1046-last-stone-weight) |
 ## Merge Sort
 |  |
 | ------- |
