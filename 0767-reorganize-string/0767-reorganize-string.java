@@ -25,7 +25,7 @@ class Solution {
         while (!pq.isEmpty() || !q.isEmpty()) {
             time++;
 
-            while (!q.isEmpty() && q.peek().getKey()[1] <= time) {
+            while (!q.isEmpty() && q.peek().getKey()[1] == time) {
                 Pair <int[], Character> p = q.poll();
 
                 pq.offer(new Pair<>(p.getKey()[0], p.getValue()));
