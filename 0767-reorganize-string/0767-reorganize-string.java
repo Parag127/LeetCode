@@ -32,6 +32,7 @@ class Solution {
             }
 
             if (pq.isEmpty() && !q.isEmpty()) return "";
+            
             if (!pq.isEmpty()) {
                 Pair<Integer, Character> p = pq.poll();
 
