@@ -1,14 +1,13 @@
 class KthLargest {
-
-    PriorityQueue<Integer> pq = new PriorityQueue<>();
-    int k;
+    PriorityQueue<Integer> pq;
+    int x;
     public KthLargest(int k, int[] nums) {
+        this.x = k;
         pq = new PriorityQueue<>();
-        this.k = k;
-        
+
         for (int i = 0; i < nums.length; i++) {
             pq.offer(nums[i]);
-
+            
             if (pq.size() > k) pq.poll();
         }
     }
@@ -16,8 +15,7 @@ class KthLargest {
     public int add(int val) {
         pq.offer(val);
 
-        if (pq.size() > k) pq.poll();
-
+        if (pq.size() > x) pq.poll();
         return pq.peek();
     }
 }
