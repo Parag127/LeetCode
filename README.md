@@ -262,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Parag127/LeetCode/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/Parag127/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/Parag127/LeetCode/tree/master/0767-reorganize-string) |
+| [0856-score-of-parentheses](https://github.com/Parag127/LeetCode/tree/master/0856-score-of-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Parag127/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3838-weighted-word-mapping](https://github.com/Parag127/LeetCode/tree/master/3838-weighted-word-mapping) |
 | [3839-number-of-prefix-connected-groups](https://github.com/Parag127/LeetCode/tree/master/3839-number-of-prefix-connected-groups) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Parag127/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Parag127/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Parag127/LeetCode/tree/master/0739-daily-temperatures) |
+| [0856-score-of-parentheses](https://github.com/Parag127/LeetCode/tree/master/0856-score-of-parentheses) |
 | [0901-online-stock-span](https://github.com/Parag127/LeetCode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Parag127/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
 | [2104-sum-of-subarray-ranges](https://github.com/Parag127/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
@@ -429,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Parag127/LeetCode/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Parag127/LeetCode/tree/master/0032-longest-valid-parentheses) |
+| [0856-score-of-parentheses](https://github.com/Parag127/LeetCode/tree/master/0856-score-of-parentheses) |
 ## Design
 |  |
 | ------- |
