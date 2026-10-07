@@ -1,6 +1,5 @@
 class Solution {
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
-        List<Integer> list = new ArrayList<>();
         PriorityQueue<Pair> pq = new PriorityQueue<>(
             (a, b) -> {
                 if (a.key != b.key) {
@@ -12,29 +11,28 @@ class Solution {
         );
 
         for (int i = 0; i < arr.length; i++) {
-            int curr = Math.abs(x - arr[i]);
-            pq.offer(new Pair(arr[i], curr));
+            pq.offer(new Pair(Math.abs(x - arr[i]), arr[i]));
 
-            if (pq.size() > k) {
-                pq.poll();
-            }
+            if (pq.size() > k) pq.poll();
         }
 
-        for (int i = 0; i < k; i++) {
+        ArrayList<Integer> list = new ArrayList<>();
+        while(!pq.isEmpty()) {
             list.add(pq.poll().val);
         }
+        
 
         Collections.sort(list);
         return list;
     }
 
-    class Pair{
+    class Pair {
         int key;
         int val;
 
-        Pair(int val1, int key1) {
-            this.val = val1;
-            this.key = key1;
+        Pair(int key, int val) {
+            this.key = key;
+            this.val = val;
         }
     }
 }
