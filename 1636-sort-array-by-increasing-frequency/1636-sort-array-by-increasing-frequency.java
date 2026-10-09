@@ -1,50 +1,46 @@
 class Solution {
-    public int[] frequencySort(int[] arr) {
+    public int[] frequencySort(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
 
-        for (int i = 0; i < arr.length; i++) {
-            if (map.containsKey(arr[i])) {
-                map.put(arr[i], map.get(arr[i]) + 1);
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(nums[i])) {
+                map.put(nums[i], map.get(nums[i]) + 1);
             } else {
-                map.put(arr[i], 1);
+                map.put(nums[i], 1);
             }
         }
 
         PriorityQueue<Pair> pq = new PriorityQueue<>(
-                (a, b) -> {
-                    if (a.key != b.key) {
-                        return Integer.compare(a.key, b.key);
-                    }
+            (a, b) -> {
+                if (a.freq != b.freq) {
+                    return Integer.compare(a.freq, b.freq);
+                }
+                return Integer.compare(b.val, a.val);
+            }
+        );
 
-                    return Integer.compare(b.val, a.val);
-
-                });
-
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            pq.offer(new Pair(entry.getValue(), entry.getKey()));
+        for (Map.Entry<Integer, Integer> mpp : map.entrySet()) {
+            pq.offer(new Pair(mpp.getKey(), mpp.getValue()));
         }
-
-        int[] ans = new int[arr.length];
+        
+        int[] arr = new int[nums.length];
         int i = 0;
         while (!pq.isEmpty()) {
-
-            ans[i] = pq.peek().val;
-            pq.peek().key--;
-            if (pq.peek().key <= 0) {
-                pq.poll();
+            for (int k = 0; k < pq.peek().freq; k++) {
+                arr[i] = pq.peek().val;
+                i++;
             }
-            i++;
+            pq.poll();
         }
-
-        return ans;
+        return arr;
     }
-
+    
     class Pair {
-        int key;
+        int freq;
         int val;
 
-        Pair(int key, int val) {
-            this.key = key;
+        Pair(int val, int freq) {
+            this.freq = freq;
             this.val = val;
         }
     }
