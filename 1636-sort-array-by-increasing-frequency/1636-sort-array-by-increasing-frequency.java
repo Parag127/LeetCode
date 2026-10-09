@@ -1,4 +1,15 @@
 class Solution {
+
+    class Pair {
+        int freq;
+        int val;
+
+        Pair(int val, int freq) {
+            this.freq = freq;
+            this.val = val;
+        }
+    }
+    
     public int[] frequencySort(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
 
@@ -35,13 +46,4 @@ class Solution {
         return arr;
     }
     
-    class Pair {
-        int freq;
-        int val;
-
-        Pair(int val, int freq) {
-            this.freq = freq;
-            this.val = val;
-        }
-    }
 }
