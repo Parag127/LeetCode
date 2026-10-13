@@ -10,38 +10,42 @@ class Solution {
             }
         }
 
-        PriorityQueue<Pair> pq =  new PriorityQueue<>(
-            (a, b) ->  {
-                if (a.key != b.key) {
-                    return Integer.compare(a.key, b.key);
-                }
+        PriorityQueue<Pair<Integer, String>> pq = new PriorityQueue<>(
+            (a, b) -> {
+                int cmp = Integer.compare(a.key, b.key);
 
-                return b.word.compareTo(a.word);
+                if (cmp != 0) return cmp;
+                
+                return b.val.compareTo(a.val);
             }
         );
 
-        for (Map.Entry <String, Integer> entry : map.entrySet()) {
-            pq.offer(new Pair(entry.getValue(), entry.getKey()));
-
-            if (pq.size() > k) {
-                pq.poll();
-            }
+        for (Map.Entry<String, Integer> mpp : map.entrySet()) {
+            pq.offer(new Pair<>(mpp.getValue(), mpp.getKey()));
+            if (pq.size() > k) pq.poll();
         }
 
         List<String> list = new ArrayList<>();
-        for (int i = 0; i < k; i++) {
-            list.add(0, pq.poll().word);
+
+        while (!pq.isEmpty()) {
+            Pair<Integer, String> p = pq.poll();
+
+            list.add(p.getVal());
         }
-        return list;    
+        Collections.reverse(list);
+        return list;
     }
 
-    class Pair {
-        int key;
-        String word;
+    class Pair<K, V> {
+        K key;
+        V val;
 
-        Pair(int key, String word) {
+        Pair (K key, V val) {
             this.key = key;
-            this.word = word;
+            this.val = val;
         }
+
+        K getKey() { return key; }
+        V getVal() { return val; }
     }
 }
