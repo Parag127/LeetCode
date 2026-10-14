@@ -1,14 +1,14 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
-        List<Integer> list = new LinkedList<>();
-        List<List<Integer>> ans = new LinkedList<>();
+        List<Integer> list = new ArrayList<>();
+        List<List<Integer>> ans = new ArrayList<>();
         return subseQuences(0, nums, list, ans);
     }
 
     public List<List<Integer>> subseQuences(int i, int[] nums, List<Integer> list, List<
     List<Integer>> ans) {
         if (i == nums.length) {
-            ans.add(new LinkedList<>(list));
+            ans.add(new ArrayList<>(list));
             return ans;
         }
 
