@@ -11,15 +11,15 @@ class Solution {
         }
 
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
-        for (int i : map.values()) {
-            pq.offer(i);
+
+        for (Map.Entry<Character, Integer> mpp : map.entrySet()) {
+            pq.offer(mpp.getValue());
         }
 
         Queue< int[] > q = new LinkedList<>();
-        int time = 0;
 
+        int time = 0;
         while (!pq.isEmpty() || !q.isEmpty()) {
-            
             time++;
 
             if (!q.isEmpty() && q.peek()[1] == time) {
@@ -28,13 +28,14 @@ class Solution {
 
             if (!pq.isEmpty()) {
                 int freq = pq.poll();
-
                 freq--;
+                
                 if (freq > 0) {
                     q.offer(new int[] {freq, time + n + 1});
                 }
             }
         }
+
         return time;
     }
 }
