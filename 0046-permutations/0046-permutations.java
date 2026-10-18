@@ -1,26 +1,31 @@
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> list = new ArrayList<>();
-        boolean[] freq = new boolean[nums.length];
-        recurPermute(nums, freq, list, ans);
+        recurPermute(0, nums, ans);
         return ans;
     }
 
-    static void recurPermute(int[] nums, boolean[] freq, List<Integer> ds, List<List<Integer>> ans) {
-        if (ds.size() == nums.length) {
-            ans.add(new ArrayList<>(ds));
+    static void recurPermute(int idx, int[] arr, List<List<Integer>> ans) {
+        if (idx == arr.length) {
+            List<Integer> list = new ArrayList<>();
+            
+            for (int i = 0; i < arr.length; i++) {
+                list.add(arr[i]);
+            }
+            ans.add(new ArrayList<>(list));
             return;
         }
 
-        for (int i = 0; i < nums.length; i++) {
-            if (!freq[i]) {
-                freq[i] = true;
-                ds.add(nums[i]);
-                recurPermute(nums, freq, ds, ans);
-                ds.remove(ds.size() - 1);
-                freq[i] = false;
-            }
+        for (int i = idx; i < arr.length; i++) {
+            swap(arr, i, idx);
+            recurPermute(idx + 1, arr, ans);
+            swap(arr, i, idx);
         }
+    }
+
+    static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 }
