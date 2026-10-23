@@ -11,9 +11,7 @@ class Solution {
             if (zeroes > k) {
                 if (nums[l] == 0) zeroes--;
                 l++;
-            }
-
-            if (zeroes <= k) {
+            } else {
                 maxLen = Math.max(maxLen, r - l + 1);
             }
 
