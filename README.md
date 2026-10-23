@@ -216,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Parag127/LeetCode/tree/master/0053-maximum-subarray) |
 | [0085-maximal-rectangle](https://github.com/Parag127/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Parag127/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/Parag127/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0392-is-subsequence](https://github.com/Parag127/LeetCode/tree/master/0392-is-subsequence) |
 | [0509-fibonacci-number](https://github.com/Parag127/LeetCode/tree/master/0509-fibonacci-number) |
 | [0907-sum-of-subarray-minimums](https://github.com/Parag127/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Parag127/LeetCode/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Parag127/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/Parag127/LeetCode/tree/master/0076-minimum-window-substring) |
+| [0131-palindrome-partitioning](https://github.com/Parag127/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0392-is-subsequence](https://github.com/Parag127/LeetCode/tree/master/0392-is-subsequence) |
 | [0402-remove-k-digits](https://github.com/Parag127/LeetCode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Parag127/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
@@ -597,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0052-n-queens-ii](https://github.com/Parag127/LeetCode/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/Parag127/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Parag127/LeetCode/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/Parag127/LeetCode/tree/master/0131-palindrome-partitioning) |
 ## Algorithm X
 |  |
 | ------- |
