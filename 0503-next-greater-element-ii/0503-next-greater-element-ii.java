@@ -1,24 +1,29 @@
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
-        
+        int[] nge = new int[nums.length];
+
+        NGE(nums, nge);
+
+        return nge;    
+    }
+
+
+    public void NGE(int[] arr, int[] NGE) {
+        int n = arr.length;
+
         Deque<Integer> st = new ArrayDeque<>();
-        int n = nums.length;
         int i = n * 2 - 1;
-        int[] nge = new int [n];
 
         while (i >= 0) {
-            
-            while (!st.isEmpty() && st.peek() <= nums[i % n]) {
+
+            while (!st.isEmpty() && arr[i % n] >= st.peek()) {
                 st.pop();
             }
 
-            if (i < n) {
-                nge[i] = st.isEmpty() ? -1 : st.peek();
-            }
-            st.push(nums[i % n]);
+            NGE[i % n] = st.isEmpty() ? -1 : st.peek();
+
+            st.push(arr[i % n]);
             i--;
         }
-
-        return nge;
     }
 }
