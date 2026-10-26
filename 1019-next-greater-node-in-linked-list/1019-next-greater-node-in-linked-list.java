@@ -47,7 +47,7 @@ class Solution {
     public int[] NGE(ListNode head, int[] NGE) {
         int n = NGE.length;
 
-        Stack<Integer> st = new Stack<>();
+        Deque<Integer> st = new ArrayDeque<>();
 
         int i = n - 1;
 
