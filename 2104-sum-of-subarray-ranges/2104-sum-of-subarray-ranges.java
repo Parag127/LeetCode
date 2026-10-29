@@ -1,112 +1,103 @@
 class Solution {
-    public long subArrayRanges(int[] arr) {
-        int n = arr.length;
+    public long subArrayRanges(int[] nums) {
+        int n = nums.length;
 
         int[] NSE = new int[n];
         int[] PSE = new int[n];
         int[] NGE = new int[n];
         int[] PGE = new int[n];
 
-        findNSE(arr, NSE);
-        findPSE(arr, PSE);
-        findNGE(arr, NGE);
-        findPGE(arr, PGE);
+        findNSE(nums, NSE);
+        findPSE(nums, PSE);
+        findNGE(nums, NGE);
+        findPGE(nums, PGE);
 
-        long ans = 0;
-        for (int i = 0; i < n; i++) {
-            long sLeft = i - PSE[i];
-            long sRight = NSE[i] - i;
-            long lLeft = i - PGE[i];
-            long lRight =  NGE[i] - i;
+        long total = 0;
 
-            long max = (lLeft * lRight * 1L * arr[i]);
-            long min = (sLeft * sRight * 1L * arr[i]);
-            ans = (ans + max - min);
+        for (int i = 0; i < nums.length; i++) {
+            int leftMax = i - PGE[i];
+            int rightMax = NGE[i] - i;
+            int leftMin = i - PSE[i];
+            int rightMin = NSE[i] - i;
+
+            long maxSum = leftMax * rightMax * 1L * nums[i];
+            long minSum = leftMin * rightMin * 1L * nums[i];
+
+            total = total + (maxSum - minSum);
         }
 
-        return ans;
+        return total;
     }
 
-    static void findNSE(int[] arr, int[] NSE) {
+    public void findNSE(int[] arr, int[] NSE) {
         int n = arr.length;
         Deque<Integer> st = new ArrayDeque<>();
         int i = n - 1;
+
         while (i >= 0) {
-            while (!st.isEmpty() && arr[st.peek()] >= arr[i]) {
+
+            while (!st.isEmpty() && arr[st.peek()] > arr[i]) {
                 st.pop();
             }
 
-            if (st.isEmpty()) {
-                NSE[i] = n;
-            } else {
-                NSE[i] = st.peek();
-            }
+            NSE[i] = st.isEmpty() ? n : st.peek();
 
             st.push(i);
             i--;
         }
     }
 
-    static void findPSE(int[] arr, int[] PSE) {
+    public void findPSE(int[] arr, int[] PSE) {
         int n = arr.length;
         Deque<Integer> st = new ArrayDeque<>();
         int i = 0;
 
         while (i < n) {
-            while (!st.isEmpty() && arr[st.peek()] > arr[i]) {
+
+            while (!st.isEmpty() && arr[st.peek()] >= arr[i]) {
                 st.pop();
             }
 
-            if (st.isEmpty()) {
-                PSE[i] = -1;
-            } else {
-                PSE[i] = st.peek();
-            }
+            PSE[i] = st.isEmpty() ? -1 : st.peek();
 
             st.push(i);
             i++;
         }
     }
 
-    static void findNGE(int[] arr, int[] NGE) {
+    public void findNGE(int[] arr, int[] NGE) {
         int n = arr.length;
         Deque<Integer> st = new ArrayDeque<>();
         int i = n - 1;
 
         while (i >= 0) {
-            while (!st.isEmpty() && arr[st.peek()] <= arr[i]) {
+
+            while(!st.isEmpty() && arr[st.peek()] < arr[i]) {
                 st.pop();
             }
 
-            if (st.isEmpty()) {
-                NGE[i] = n;
-            } else {
-                NGE[i] = st.peek();
-            }
+            NGE[i] = st.isEmpty() ? n : st.peek();
 
             st.push(i);
             i--;
         }
     }
 
-    static void findPGE(int[] arr, int[] PGE) {
-	    int n = arr.length;
-	    Deque<Integer> st = new ArrayDeque<>();
-	    int i = 0;
-	    
-	    while (i < n) {
-	        while (!st.isEmpty() && arr[st.peek()] < arr[i]) {
-	            st.pop();
-	        }
-	        
-	        if (st.isEmpty()) {
-	            PGE[i] = -1;
-	        } else {
-	            PGE[i] = st.peek();
-	        }
-	        
-	        st.push(i);
-	        i++;
-	    }
+    public void findPGE(int[] arr, int[] PGE) {
+        int n = arr.length;
+        Deque<Integer> st = new ArrayDeque<>();
+        int i = 0;
+
+        while (i < n) {
+
+            while (!st.isEmpty() && arr[st.peek()] <= arr[i]) {
+                st.pop();
+            }
+
+            PGE[i] = st.isEmpty() ? -1 : st.peek();
+
+            st.push(i);
+            i++;
+        }
     }
 }
