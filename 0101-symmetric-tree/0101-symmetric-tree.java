@@ -16,18 +16,13 @@
 class Solution {
     public boolean isSymmetric(TreeNode root) {
         if (root == null) return true;
-
-        TreeNode left = root.left;
-        TreeNode right = root.right;
-        return sameTree(left, right);
+        return sameTree(root.left, root.right);
     }
 
     public boolean sameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) return true;
         if (p == null || q == null) return false;
 
-        return (p.val == q.val) &&
-                sameTree(p.left, q.right) &&
-                sameTree(p.right, q.left);
+        return (p.val == q.val) && sameTree(p.left, q.right) && sameTree(p.right, q.left);
     }
 }
