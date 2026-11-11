@@ -20,7 +20,7 @@ class Solution {
     public void backtrack(int col, char[][] board, List<List<String>> ans, int[] leftRow, int[] leftUpperD, int[] leftLowerD) {
         int n = board.length;
         if (col == n) {
-            ans.add(new ArrayList<>(createBoard(board)));
+            ans.add(createBoard(board));
         }
 
         for (int row = 0; row < n; row++) {
