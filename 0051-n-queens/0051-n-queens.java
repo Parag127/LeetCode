@@ -2,8 +2,8 @@ class Solution {
     public List<List<String>> solveNQueens(int n) {
         char[][] board = new char[n][n];
 
-        for (int i = 0; i < n; i++) {
-            Arrays.fill(board[i], '.');
+        for (char[] i : board) {
+            Arrays.fill(i, '.');
         }
 
         List<List<String>> ans = new ArrayList<>();
