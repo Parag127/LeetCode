@@ -1,12 +1,11 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        
-        HashMap<Character, Integer> map = new HashMap<>();
-
         int l = 0;
         int r = 0;
-        int maxLen = 0;
+
+        HashMap<Character, Integer> map = new HashMap<>();
         int maxFreq = 0;
+        int maxLen = 0;
 
         while (r < s.length()) {
             
@@ -17,8 +16,9 @@ class Solution {
             }
 
             maxFreq = map.get(s.charAt(r));
-            while (maxFreq > 1) {
 
+            while (maxFreq > 1) {
+                
                 map.put(s.charAt(l), map.get(s.charAt(l)) - 1);
                 
                 if (map.get(s.charAt(l)) == 0) {
